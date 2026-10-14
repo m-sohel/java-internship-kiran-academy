@@ -1,4 +1,4 @@
-# <div align="center">🚀 Full Stack Java Developer Internship — The Kiran Academy</div>
+# <div align="center">☕ Full Stack Java Developer Internship — The Kiran Academy</div>
 
 <div align="center">
 
@@ -24,25 +24,25 @@
 
 ## 📌 Executive Summary
 
-Welcome to the central engineering repository for my **3-Month Full Stack Java Developer Internship** at **The Kiran Academy**, Pune. 
+Welcome to the central repository documenting my **3-Month Full Stack Java Developer Internship** at **The Kiran Academy**, Pune. 
 
-This repository documents the day-by-day practical implementations, architectural design patterns, database modeling, and full-stack software development covered across the comprehensive **Java Full Stack Roadmap**. The training is split into three foundational pillars: **Back-end Engineering**, **Database Management**, and **Modern Front-end Development**, culminating in end-to-end production-ready web applications.
+This repository systematically captures daily practical assignments, object-oriented software design, database modeling, and modern web application development based on the official **Java Full Stack Roadmap**. The learning trajectory is split across three foundational pillars: **Back-end Engineering**, **Database Management**, and **Modern Front-end Development**, progressing towards modular, enterprise-ready web applications.
 
 ---
 
 ## 🧭 The Official 3-Pillar Roadmap
 
-Based on the official curriculum of **The Kiran Academy**, this internship is structured around three core architectural layers:
+Guided by the curriculum of **The Kiran Academy**, the internship is structured across three core architectural layers:
 
 ```mermaid
 flowchart TD
-    subgraph Frontend["🎨 1. Front-end"]
-        FE1["HTML5"]
-        FE2["React JS"]
+    subgraph Frontend["🎨 1. Front-end Layer"]
+        FE1["HTML5 / Semantic UI"]
+        FE2["React JS / Modern Components"]
         FE1 --> FE2
     end
 
-    subgraph Backend["⚙️ 2. Back-end"]
+    subgraph Backend["⚙️ 2. Back-end Layer"]
         BE1["Core Java ☕"]
         BE2["Servlets 🌐"]
         BE3["JSP 📑"]
@@ -52,8 +52,8 @@ flowchart TD
         BE1 --> BE2 --> BE3 --> BE4 --> BE5 --> BE6
     end
 
-    subgraph Database["🗄️ 3. Database"]
-        DB1["MySQL 🐬"]
+    subgraph Database["🗄️ 3. Database Layer"]
+        DB1["MySQL Relational DB 🐬"]
     end
 
     Frontend <-->|"REST APIs / JSON / HTTP"| Backend
@@ -89,12 +89,12 @@ flowchart TD
 
 | Field | Details |
 |:---|:---|
-| **Candidate / Intern** | **Kasim Shah** ([@kasimshah19](https://github.com/kasimshah19)) |
+| **Candidate / Intern** | **Mohammad Sohel** ([@m-sohel](https://github.com/m-sohel)) |
 | **Role Title** | Full Stack Java Developer Intern |
 | **Training Organization** | **The Kiran Academy**, Pune, Maharashtra |
 | **Program Duration** | **3 Months** (October 2026 – December 2026) |
 | **Core Architecture** | Multi-Tier Enterprise Web Application (React + Spring Boot + Hibernate + MySQL) |
-| **Training Focus** | Practical daily task delivery, clean code, real-world full-stack capstone projects |
+| **Training Focus** | Practical daily task delivery, clean code discipline, real-world full-stack capstone projects |
 
 ---
 
@@ -104,67 +104,67 @@ flowchart TD
 
 ### 1. Back-end Engineering
 
-The backend track forms the backbone of the internship, progressing from raw Java fundamentals to enterprise-grade Spring Boot microservices.
+The backend track forms the primary backbone of the internship, advancing from core Java programming fundamentals to enterprise-grade Spring Boot microservices.
 
 #### ☕ A. Core Java
 - **Language Fundamentals:** JVM architecture, Bytecode execution, ClassLoader subsystem, Memory Allocation (Heap vs. Stack vs. Metaspace).
-- **Data Types & Operators:** Primitives, Wrappers, Autoboxing/Unboxing, Arithmetic/Bitwise/Logical operators, Type Casting.
-- **Control Flow & Logic Building:** Decision making (`if-else`, modern switch), Looping (`for`, `while`, `do-while`), Nested iterations, Number theory algorithms.
+- **Data Types & Operators:** Primitives, Wrappers, Autoboxing/Unboxing, Arithmetic/Bitwise/Logical operators, Type Casting & widening.
+- **Control Flow & Logic Building:** Decision making (`if-else`, modern switch expressions), Looping (`for`, enhanced `for-each`, `while`, `do-while`), Nested iterations, Computational algorithms.
 - **Object-Oriented Programming (OOP):**
-  - **Encapsulation:** Access modifiers, Data hiding, POJOs, JavaBeans.
-  - **Inheritance:** Single, Multilevel, Hierarchical; IS-A relationship; `super` keyword.
-  - **Polymorphism:** Compile-time Overloading vs. Runtime Dynamic Method Dispatch; `@Override`.
+  - **Encapsulation:** Access modifiers, Data hiding, POJOs, JavaBeans standards.
+  - **Inheritance:** Single, Multilevel, Hierarchical; IS-A relationship; `super` keyword and constructor chaining.
+  - **Polymorphism:** Compile-time Overloading vs. Runtime Dynamic Method Dispatch; method overriding with `@Override`.
   - **Abstraction:** Abstract classes vs. Pure Interfaces, default and static interface methods.
-- **Strings & Memory Pool:** `String` immutability, String Constant Pool (SCP), `StringBuilder` and `StringBuffer` benchmarks.
-- **Exception Architecture:** Checked vs. Unchecked exceptions, `try-catch-finally`, `throw`, `throws`, Custom application exceptions.
-- **Java Collections Framework (JCF):** `List` (`ArrayList`, `LinkedList`), `Set` (`HashSet`, `TreeSet`), `Map` (`HashMap` internal hashing & rehashing mechanics, `TreeMap`), `Queue`.
+- **Strings & Memory Pool:** `String` immutability, String Constant Pool (SCP), `StringBuilder` and `StringBuffer` performance benchmarks.
+- **Exception Architecture:** Checked vs. Unchecked exceptions, `try-catch-finally` blocks, `throw`, `throws`, Custom application exceptions.
+- **Java Collections Framework (JCF):** `List` (`ArrayList`, `LinkedList`), `Set` (`HashSet`, `TreeSet`), `Map` (`HashMap` internal hashing & bucket mechanics, `TreeMap`), `Queue`.
 - **Java 8+ Features:** Lambda Expressions, Functional Interfaces, Stream API (`filter`, `map`, `reduce`, `collect`), Optional class.
-- **Multithreading & Concurrency:** Thread lifecycle, `Runnable`, Synchronization, Thread safety.
+- **Multithreading & Concurrency:** Thread lifecycle, `Runnable` interface, Synchronization, Thread safety and race conditions.
 
 #### 🌐 B. Servlets
-- Web Application Architecture, Client-Server model, HTTP Protocol (GET, POST, PUT, DELETE).
+- Web Application Architecture, Client-Server model, HTTP Protocol specs (GET, POST, PUT, DELETE).
 - Servlet Lifecycle (`init()`, `service()`, `destroy()`).
-- Handling HTTP requests and responses using `HttpServletRequest` and `HttpServletResponse`.
-- Session Management techniques: Cookies, `HttpSession`, URL Rewriting, Hidden Form Fields.
-- Servlet Filters and Event Listeners.
+- Processing HTTP requests and crafting responses via `HttpServletRequest` and `HttpServletResponse`.
+- Session Tracking techniques: Cookies, `HttpSession`, URL Rewriting, Hidden Form Fields.
+- Servlet Filters and Event Listeners for intercepting request pipelines.
 
 #### 📑 C. JSP (JavaServer Pages)
 - JSP Architecture and lifecycle phases (Translation, Compilation, Initialization, Execution).
 - JSP Scripting elements: Scriptlets `<% %>`, Expressions `<%= %>`, Declarations `<%! %>`, Directives `<%@ %>`.
 - JSP Action tags and standard tag libraries.
-- JSTL (JSP Standard Tag Library) and EL (Expression Language) for clean separation of concerns.
+- JSTL (JSP Standard Tag Library) and EL (Expression Language) for maintainable presentation logic.
 - Classic Model-View-Controller (MVC Architecture) using Servlets as Controllers and JSP as Views.
 
 #### 🍃 D. Spring Framework
 - Core Architecture of the Spring Framework.
 - Inversion of Control (IoC) Container: `BeanFactory` and `ApplicationContext`.
-- Dependency Injection (DI): Constructor Injection vs. Setter Injection.
+- Dependency Injection (DI): Constructor Injection vs. Setter Injection patterns.
 - Spring Bean Lifecycle, Bean Scopes (Singleton, Prototype, Request, Session).
 - Aspect-Oriented Programming (AOP): Aspects, Advice, Pointcuts, Joinpoints.
-- Spring MVC: `DispatcherServlet`, Controller mappings, Model, ViewResolvers.
+- Spring MVC: `DispatcherServlet`, Controller mappings, Model attributes, ViewResolvers.
 
 #### 🟢 E. Spring Boot
 - Fundamentals of Spring Boot: Opinionated Defaults, Auto-Configuration, Spring Boot Starters.
-- Embedded Servers (Tomcat, Jetty, Undertow).
+- Embedded Application Servers (Tomcat, Jetty, Undertow).
 - Developing RESTful Web Services: `@RestController`, `@RequestMapping`, `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`.
 - Request payload binding: `@RequestBody`, `@PathVariable`, `@RequestParam`, `@ResponseStatus`.
-- Exception Handling: `@ControllerAdvice`, `@ExceptionHandler`, standard API response formatting.
-- Spring Boot Actuator for application monitoring and metrics.
+- Exception Handling: Centralized `@ControllerAdvice`, `@ExceptionHandler`, unified API response structures.
+- Spring Boot Actuator for application health metrics and production monitoring.
 
 #### 🏛️ F. Hibernate ORM
-- Object-Relational Mapping (ORM) principles and the impedance mismatch problem.
-- Hibernate Architecture: `Configuration`, `SessionFactory`, `Session`, `Transaction`, `Query`.
+- Object-Relational Mapping (ORM) principles and solving impedance mismatch.
+- Hibernate Core Architecture: `Configuration`, `SessionFactory`, `Session`, `Transaction`, `Query`.
 - JPA (Java Persistence API) Annotations: `@Entity`, `@Table`, `@Id`, `@GeneratedValue`, `@Column`, `@Transient`.
-- Entity Relationships: One-to-One (`@OneToOne`), One-to-Many (`@OneToMany`), Many-to-One (`@ManyToOne`), Many-to-Many (`@ManyToMany`).
+- Entity Relationship Mappings: One-to-One (`@OneToOne`), One-to-Many (`@OneToMany`), Many-to-One (`@ManyToOne`), Many-to-Many (`@ManyToMany`).
 - Cascading types (`CascadeType`) and Fetching strategies (`FetchType.LAZY` vs `FetchType.EAGER`).
-- HQL (Hibernate Query Language) & Criteria API for dynamic queries.
-- Integration: Spring Data JPA repositories (`JpaRepository`, `CrudRepository`) with automatic query derivation.
+- HQL (Hibernate Query Language) & Criteria API for type-safe queries.
+- Persistence Integration: Spring Data JPA repositories (`JpaRepository`, `CrudRepository`) with automatic query derivation.
 
 ---
 
 ### 2. Database Management (MySQL)
 
-A robust backend demands high-performance, well-structured relational storage.
+Enterprise backends rely on clean, normalized, and performant relational databases.
 
 - **Relational Concepts:** Tables, Columns, Rows, Primary Keys, Foreign Keys, Composite Keys, Unique Constraints.
 - **SQL Sublanguages:**
@@ -173,40 +173,40 @@ A robust backend demands high-performance, well-structured relational storage.
   - **DQL (Data Query Language):** Complex `SELECT` queries, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, Aggregate functions (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`).
   - **DCL & TCL:** `GRANT`, `REVOKE`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`.
 - **Relational Joins:** `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `CROSS JOIN`, Self Joins.
-- **Database Normalization:** 1NF, 2NF, 3NF, BCNF principles for eliminating data redundancy.
-- **JDBC Integration:** Connecting Java applications to MySQL using MySQL Connector/J, executing `Statement` and parameterized `PreparedStatement` to prevent SQL Injection.
+- **Database Normalization:** 1NF, 2NF, 3NF, BCNF principles for eliminating redundancy and preserving integrity.
+- **JDBC Integration:** Connecting Java applications to MySQL using MySQL Connector/J, executing `Statement` and parameterized `PreparedStatement` to guard against SQL Injection.
 
 ---
 
 ### 3. Front-end Engineering
 
-Modern full-stack applications require responsive, dynamic, and intuitive user interfaces that communicate seamlessly with backend REST APIs.
+Modern full-stack applications require responsive, dynamic, and intuitive user interfaces that seamlessly consume backend REST APIs.
 
 #### 📄 A. HTML5
 - Semantic HTML elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`).
-- Modern Form Controls, validations, inputs (`email`, `number`, `date`, `pattern`).
-- Accessibility standards (ARIA attributes, semantic hierarchy).
-- Tables, Lists, Media elements (`<img>`, `<video>`, `<audio>`).
+- Modern Form Controls, validations, and input types (`email`, `number`, `date`, `pattern`).
+- Web Accessibility standards (ARIA roles, semantic document hierarchy).
+- Tables, Lists, and Rich Media elements (`<img>`, `<video>`, `<audio>`).
 
 #### ⚛️ B. React JS
-- Core React Principles: Component-Driven Architecture, Virtual DOM reconciliation.
-- JSX (JavaScript XML) syntax and embedding expressions.
+- Core React Principles: Component-Driven Architecture, Virtual DOM diffing & reconciliation.
+- JSX (JavaScript XML) syntax and inline expression binding.
 - Functional Components vs. Class Components.
 - Component State (`useState`) and Props management (unidirectional data flow).
-- Component Side Effects & Lifecycle via `useEffect` hook.
+- Component Side Effects & Lifecycle via the `useEffect` hook.
 - Event handling, conditional rendering, and rendering dynamic lists (`map()` with unique `key` props).
-- Form handling: Controlled vs. Uncontrolled components.
+- Form handling: Controlled vs. Uncontrolled input components.
 - REST API Integration: Consuming Spring Boot endpoints using `fetch` API and `Axios`.
-- Single Page Application (SPA) routing using React Router.
+- Single Page Application (SPA) client-side routing using React Router.
 
 ---
 
 ## 🗂️ Internship Timeline & Folder Structure
 
-The repository is divided chronologically across the 3 calendar months, allowing incremental daily code tracking alongside modular topic packages:
+The repository is structured chronologically across the 3 calendar months, allowing incremental daily code tracking alongside modular topic packages:
 
 ```text
-kiran-academy-java-internship/
+java-internship-kiran-academy/
 │
 ├── 📁 October/                        # Month 1: Days 01 – 30 (30 Days)
 │   │                                  # Focus: Core Java Fundamentals, OOP Logic & Computational Math
@@ -234,7 +234,7 @@ kiran-academy-java-internship/
 
 ## 🌟 Day 01 Detailed Case Study
 
-The journey kicked off on **Day 01** in [`October/Day01_Task1`](./October/Day01_Task1), establishing pristine coding standards, foundational Java arithmetic execution, and modular billing logic:
+The practical journey started on **Day 01** in [`October/Day01_Task1`](./October/Day01_Task1), setting up disciplined coding conventions, foundational arithmetic logic, and a modular billing calculation:
 
 ```
 Variables tested:
@@ -274,8 +274,8 @@ npm -v
 
 ### 3. Clone Repository
 ```bash
-git clone https://github.com/kasimshah19/kiran-academy-java-internship.git
-cd kiran-academy-java-internship
+git clone https://github.com/m-sohel/java-internship-kiran-academy.git
+cd java-internship-kiran-academy
 ```
 
 ### 4. Running Java Tasks
@@ -290,34 +290,34 @@ java Division
 
 ## 🧼 Engineering Standards & Best Practices
 
-All code committed across this 3-month internship adheres to enterprise software engineering standards:
+All code committed across this 3-month internship strictly follows enterprise software engineering guidelines:
 
 1. **Clean Code & Naming Conventions:**
    - Classes use `PascalCase` (`EmployeeService`, `Division`).
    - Variables and Methods use `camelCase` (`calculateBonus()`, `employeeId`).
    - Database tables use `snake_case` (`employee_records`, `order_items`).
-2. **Layered Separation of Concerns (MVC):**
-   - **Controller Layer:** Handles HTTP requests and delegates to services.
-   - **Service Layer:** Houses core business logic and transaction management.
-   - **Repository / DAO Layer:** Handles database persistence using Spring Data JPA / Hibernate.
-   - **UI Layer:** Pure React components handling presentation and state.
-3. **Repository Cleanliness:**
+2. **Layered Separation of Concerns (MVC Pattern):**
+   - **Controller Layer:** Handles incoming HTTP requests and delegates to services.
+   - **Service Layer:** Encapsulates business logic and transaction boundaries.
+   - **Repository / DAO Layer:** Handles data persistence via Spring Data JPA / Hibernate.
+   - **UI Layer:** Independent React components managing presentation and state.
+3. **Repository Cleanliness & Version Control Hygiene:**
    - Zero tracked compiler artifacts (`.class` files, `target/`, `node_modules/`).
-   - Every program is self-contained, validated, and free of extraneous debug logs.
+   - Every program is self-contained, verified, and free of extraneous debug logs.
 
 ---
 
 ## 👤 Author & Acknowledgments
 
-- **Intern / Developer:** **Kasim Shah**
-  - **GitHub:** [@kasimshah19](https://github.com/kasimshah19)
-  - **Repository:** [kiran-academy-java-internship](https://github.com/kasimshah19/kiran-academy-java-internship)
+- **Intern / Developer:** **Mohammad Sohel**
+  - **GitHub:** [@m-sohel](https://github.com/m-sohel)
+  - **Repository:** [java-internship-kiran-academy](https://github.com/m-sohel/java-internship-kiran-academy)
 - **Training Institution:** [The Kiran Academy](https://www.thekiranacademy.com/), Pune, Maharashtra
-- **Special Thanks:** Sincere gratitude to the faculties, mentors, and placement coordinators at The Kiran Academy for their comprehensive guidance, structured curriculum, and relentless focus on practical engineering excellence.
+- **Special Thanks:** Sincere appreciation to the instructors, mentors, and the technical team at The Kiran Academy for their structured curriculum, expert guidance, and continuous encouragement throughout this internship program.
 
 ---
 
 <div align="center">
-  <b>⭐ Star this repository if you are following along with the Java Full Stack learning journey! ⭐</b><br>
-  <i>Built with discipline, continuous learning, and clean code standards.</i>
+  <b>⭐ Star this repository if you find this Java Full Stack roadmap and code useful! ⭐</b><br>
+  <i>Built with consistency, problem-solving passion, and clean code standards.</i>
 </div>
