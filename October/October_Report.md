@@ -1,10 +1,10 @@
 # Internship Progress Report: October 2026
 
-- **Intern Name:** Fakir Mohammad Kasim Salim Shah
+- **Intern Name:** Mohammad Sohel Jalil Ahmad
 - **Organization:** Kiran Academy, Pune
 - **Program:** Full Stack Java Internship (3 months)
 - **Month Covered:** October 2026
-- **Repository:** https://github.com/kasimshah19/kiran-academy-java-internship
+- **Repository:** https://github.com/m-sohel/java-internship-kiran-academy
 - **Tools & Environment:** Java (OpenJDK 17.0.20.1), Antigravity IDE, Git, GitHub
 
 ---
